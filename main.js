@@ -17,9 +17,9 @@ console.log('#8. JavaScript homework example file')
  * 5. Функція має бути експортована для використання в інших модулях та тестування.
  */
 
-function createDomElement(tagName, textContent, container) {
-const newElement = document.createElement(tagName);
-  newElement.textContent = textContent;
+function createDomElement(tagName, innerText, container) {
+  const newElement = document.createElement(tagName);
+  newElement.innerText = innerText;
   container.appendChild(newElement);
   return newElement;
 }
